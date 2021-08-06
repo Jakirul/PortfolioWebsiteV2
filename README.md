@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Portfolio Website (V2)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the second version of my portfolio website that I made using React.js with Hooks and React-Router-DOM
+
+## Preview
+
+![alt text](https://i.gyazo.com/a52ccac27f377e4ead6808bd31a17a80.png)
+![alt text](https://i.gyazo.com/b8dd7afea1b5e0a3d7b6aa1cad3cfaec.png)
+
 
 ## Available Scripts
 
