@@ -1,0 +1,100 @@
+body {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+img {
+  width: 768px;
+  height: 100%;
+  object-fit: contain;
+}
+
+.wrapper {
+  display: flex;
+  margin: 20px auto;
+  width: 70%;
+  border: 1px solid rgb(216, 215, 215);
+}
+
+.left {
+  float: left;
+  width: 50%;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.right {
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+}
+
+.right a,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.github-wrapper {
+  border: 2px solid rgb(216, 215, 215);
+  width: fit-content;
+  padding: 10px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.github-left {
+  margin-bottom: 10px;
+}
+
+.github-left img {
+  object-fit: contain;
+  width: 100px;
+}
+
+@media screen and (max-width: 2136px) {
+  img {
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .wrapper {
+    display: block;
+    text-align: center;
+  }
+  .left {
+    width: 100%;
+  }
+
+  .left img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .right {
+    text-align: center;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .left img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .right {
+    text-align: center;
+    display: block;
+  }
+}

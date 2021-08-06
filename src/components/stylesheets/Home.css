@@ -1,0 +1,51 @@
+.Home {
+  text-align: center;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-inline {
+  display: inline-block;
+}
+
+.Home h1 {
+  font-size: 70px;
+}
+
+.Home h3 {
+  font-size: 20px;
+}
+
+.Home h4 {
+  font-size: 20px;
+}
+
+.buttons-inline button {
+  margin: 10px;
+  background-color: #70da73; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.buttons-inline button:hover {
+  background-color: #4caf50;
+}
+
+@media screen and (max-width: 290px) {
+  .Home {
+    display: block;
+  }
+}

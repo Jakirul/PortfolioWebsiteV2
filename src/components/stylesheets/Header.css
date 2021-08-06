@@ -1,0 +1,98 @@
+body {
+  font-family: "Georama", sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* #efefef */
+/* #7da2a9 */
+/* #86abb3 */
+.outer {
+  width: 100%;
+  background-color: #d5e1df;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  align-items: center;
+}
+.Header {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.Header a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.Header a:focus {
+  color: #1a73e8;
+}
+
+.Header a:hover {
+  color: #104b97;
+}
+
+@media screen and (max-width: 700px) {
+  .outer {
+    height: auto;
+  }
+  .Header {
+    margin-top: 10px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .Header a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .close1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  h1 {
+    padding-top: 15px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before,
+  .close:after {
+    position: absolute;
+    left: 15px;
+    content: " ";
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+}
