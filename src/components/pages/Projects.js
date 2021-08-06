@@ -9,7 +9,6 @@ const Projects = () => {
     const fetchGithub = async() => {
         const response = await axios.get('https://api.github.com/users/jakirul/repos');
         setProjects(response.data)
-        
     }
 
     useEffect(() => {
@@ -33,12 +32,9 @@ const Projects = () => {
     const hiddenList = () => {
         const div = document.querySelector(".github-list");
         div.classList.toggle("hidden");
-       
-
     }
 
     return (
-        
         <div>
             <h1 style={{textAlign: 'center'}}>Projects</h1>
             <hr />
@@ -52,8 +48,6 @@ const Projects = () => {
             <div style={{marginTop: '50px'}} className="github-list hidden">
                 {map}
             </div>
-           
-
         </div>
     )
 }
