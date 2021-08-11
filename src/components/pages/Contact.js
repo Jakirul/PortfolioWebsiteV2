@@ -29,7 +29,7 @@ const Contact = () => {
                         <img alt="github" onClick={() => window.open('https://github.com/Jakirul','_blank')} src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" />
                     </div>
                     <div className="contact-right">
-                        <h3 onClick={() => window.open('https://github.com/Jakirul','_blank')}>View my GitHub: https://github.com/Jakirul</h3>
+                        <h3 onClick={() => window.open('https://github.com/Jakirul','_blank')}>View my GitHub: https://github.com/Jakirul/</h3>
                     </div>
                 </div>
 
