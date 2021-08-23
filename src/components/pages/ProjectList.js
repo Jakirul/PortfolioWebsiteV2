@@ -61,6 +61,20 @@ const ProjectList = () => {
                 </div>
             </div>
 
+            <div className="wrapper">
+                <div className="left">
+                    <img src="https://camo.githubusercontent.com/bf7c092bb6b4527bc6460fa4c9a3f303f7f39263e9366b8de760474f31a41d19/68747470733a2f2f692e6779617a6f2e636f6d2f65623139636633343436646238383865326131656338613233373231326230652e6a7067" alt="weather app" />
+                </div>
+                <div className="right">
+                    <h1>Weather App</h1>
+                    <h4>This is a Weather App using Vanilla JavaScript and the OpenWeatherMap API</h4>
+                    <div className="buttons-inline">
+                        <button ><a href="https://github.com/Jakirul/JSWeatherApp" target="_blank" rel="noreferrer">Link to GitHub</a></button>
+                        <button><a href="https://vibrant-fermat-2fbc5f.netlify.app/" target="_blank" rel="noreferrer">Link to Live Website</a></button>
+                    </div>
+                </div>
+            </div>
+
             <hr />
             
                 <h2 style={{textAlign: 'center'}}>View the rest of my projects...</h2>

@@ -45,7 +45,7 @@ body {
   .Header {
     margin-top: 10px;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     justify-content: space-between;
     margin-bottom: 10px;
   }

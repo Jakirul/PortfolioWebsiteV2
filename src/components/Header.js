@@ -15,12 +15,9 @@ const Header = () => {
                 <Link to="/" >Home Page</Link>
                 <Link to="skills">My Skills</Link>
                 <Link to="projects">Projects</Link>
-                <Link to="contact">Contact Me</Link>
-                
-                
-
+                <Link to="contact">Contact Me</Link>  
             </div>
-            <div className="close1" onClick={close}><a href="#" className="close" /></div>
+            <div className="close1" onClick={close}><a className="close" /></div>
             
         </div>
     )
