@@ -7,7 +7,7 @@ const ProjectList = () => {
             
             <div className="wrapper">
                 <div className="left">
-                    <img src="https://www.jakirul.com/images/freemarket.jpg" alt="freemarket" />
+                    <img src="https://i.gyazo.com/1b6d1fad760ed9bda24caad48be883d0.png" alt="freemarket" />
                 </div>
                 <div className="right">
                     <h1>FreeMarket Project</h1>
