@@ -20,6 +20,20 @@ const ProjectList = () => {
 
             <div className="wrapper">
                 <div className="left">
+                    <img src="https://i.gyazo.com/5a0365416de37b7127b3c18ead9fc024.png" alt="books app" />
+                </div>
+                <div className="right">
+                    <h1>Books App</h1>
+                    <h4>This is a CRUD web application for users to list their favourite books, write about it and allow others to comment on it to give their thoughts on the book. <br />Written using HTML (EJS) / SCSS (CSS) / JavaScript / Node.js / Express.js / MongoDB. Hosted using Mongo Atlas</h4>
+                    <div className="buttons-inline">
+                        <button ><a href="https://github.com/Jakirul/Books-App" target="_blank" rel="noreferrer">Link to GitHub</a></button>
+                        <button><a href="https://vast-forest-30320.herokuapp.com/books" target="_blank" rel="noreferrer">Link to Live Website</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="wrapper">
+                <div className="left">
                     <img src="https://camo.githubusercontent.com/7a9386df536ef853de0c4d7e5fc45411d6a142d43d2b443046784a90bf4c9438/68747470733a2f2f692e6779617a6f2e636f6d2f63303737303533303330383236393165653337663761396139313665633434362e706e67" alt="random jokes" />
                 </div>
                 <div className="right">
@@ -74,6 +88,8 @@ const ProjectList = () => {
                     </div>
                 </div>
             </div>
+
+            
 
             <hr />
             
