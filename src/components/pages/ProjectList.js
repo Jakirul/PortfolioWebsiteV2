@@ -7,7 +7,7 @@ const ProjectList = () => {
             
             <div className="wrapper">
                 <div className="left">
-                    <img src="https://i.gyazo.com/1b6d1fad760ed9bda24caad48be883d0.png" alt="freemarket" />
+                    <img src="images/ecommerce.png" alt="freemarket" />
                 </div>
                 <div className="right">
                     <h1>FreeMarket Project</h1>
@@ -20,7 +20,21 @@ const ProjectList = () => {
 
             <div className="wrapper">
                 <div className="left">
-                    <img src="https://i.gyazo.com/5a0365416de37b7127b3c18ead9fc024.png" alt="books app" />
+                    <img src="images/jokes2.PNG" alt="jokes" />
+                </div>
+                <div className="right">
+                    <h1>Anonymous Joke Posting App</h1>
+                    <h4>I worked with 3 other people to create an anonymous joke posting website. This uses HTML, CSS, JavaScript with Node/Express as well as Jest testing</h4>
+                    <div className="buttons-inline">
+                        <button ><a href="https://github.com/Jakirul/journaling-website" target="_blank" rel="noreferrer">Link to GitHub</a></button>
+                        <button><a href="https://lap1-jokes.netlify.app/" target="_blank" rel="noreferrer">Link to Live Website</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="wrapper">
+                <div className="left">
+                    <img src="images/books.png" alt="books app" />
                 </div>
                 <div className="right">
                     <h1>Books App</h1>
@@ -34,7 +48,7 @@ const ProjectList = () => {
 
             <div className="wrapper">
                 <div className="left">
-                    <img src="https://camo.githubusercontent.com/7a9386df536ef853de0c4d7e5fc45411d6a142d43d2b443046784a90bf4c9438/68747470733a2f2f692e6779617a6f2e636f6d2f63303737303533303330383236393165653337663761396139313665633434362e706e67" alt="random jokes" />
+                    <img src="images/jokes.png" alt="random jokes" />
                 </div>
                 <div className="right">
                     <h1>Joke Generator - React JS</h1>
@@ -48,7 +62,7 @@ const ProjectList = () => {
 
             <div className="wrapper">
                 <div className="left">
-                    <img src="https://i.gyazo.com/66b3c10734ae070e773ceea83ef67949.jpg" alt="portfolio website v1" />
+                    <img src="images/portfolio1.jpg" alt="portfolio website v1" />
                 </div>
                 <div className="right">
                     <h1>Portfolio Website V1</h1>
@@ -63,7 +77,7 @@ const ProjectList = () => {
 
             <div className="wrapper">
                 <div className="left">
-                    <img src="https://camo.githubusercontent.com/7b4e6814ae15d621a421876858214c8faa323cfe1e5479822aff68e03ca95433/68747470733a2f2f692e6779617a6f2e636f6d2f66366437323064613034663233393837656134316234303462346265356338392e6a7067" alt="imdb movie finder" />
+                    <img src="images/movie.jpg" alt="imdb movie finder" />
                 </div>
                 <div className="right">
                     <h1>IMDB Movie Finder</h1>
@@ -77,7 +91,7 @@ const ProjectList = () => {
 
             <div className="wrapper">
                 <div className="left">
-                    <img src="https://camo.githubusercontent.com/bf7c092bb6b4527bc6460fa4c9a3f303f7f39263e9366b8de760474f31a41d19/68747470733a2f2f692e6779617a6f2e636f6d2f65623139636633343436646238383865326131656338613233373231326230652e6a7067" alt="weather app" />
+                    <img src="images/weather.jpg" alt="weather app" />
                 </div>
                 <div className="right">
                     <h1>Weather App</h1>
