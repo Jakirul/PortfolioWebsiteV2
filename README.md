@@ -8,6 +8,11 @@ The website can be seen here: [https://portfolio-jakirul-v2.netlify.app/#/](http
 - GitHub: [https://github.com/Jakirul/PortfolioWebsiteV3](https://github.com/Jakirul/PortfolioWebsiteV3) 
 - Website: [https://jakirul.com](https://jakirul.com) 
 
+Version 1 can be viewed in the link below:
+- Version 1:
+  - [Github](https://github.com/Jakirul/PortfolioWebsite)
+  - [Live Website](https://sharp-mahavira-937e86.netlify.app/)
+
 ## Preview
 ![home page image](https://i.gyazo.com/a52ccac27f377e4ead6808bd31a17a80.png)
 ![project list image](https://i.gyazo.com/b8dd7afea1b5e0a3d7b6aa1cad3cfaec.png)
