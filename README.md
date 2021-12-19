@@ -2,7 +2,11 @@
 
 This is the second version of my portfolio website that I made using React.js with Hooks and React-Router-DOM.
 
-The website can be seen here: [https://www.jakirul.com](https://www.jakirul.com) 
+The website can be seen here: [https://portfolio-jakirul-v2.netlify.app/#/](https://portfolio-jakirul-v2.netlify.app/#/) 
+
+(An updated version is available on the github below or on my website)
+- GitHub: [https://github.com/Jakirul/PortfolioWebsiteV3](https://github.com/Jakirul/PortfolioWebsiteV3) 
+- Website: [https://jakirul.com](https://jakirul.com) 
 
 ## Preview
 ![home page image](https://i.gyazo.com/a52ccac27f377e4ead6808bd31a17a80.png)
